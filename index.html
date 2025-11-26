@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swaroop Bagal | Full Stack Developer</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Config -->
+  <script src="tailwind.config.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/30 dark:bg-black/30 shadow-md z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-indigo-600">SB</h1>
+
+      <ul class="hidden md:flex gap-8 text-lg">
+        <li><a href="#home" class="hover:text-indigo-600">Home</a></li>
+        <li><a href="#projects" class="hover:text-indigo-600">Projects</a></li>
+        <li><a href="#about" class="hover:text-indigo-600">About</a></li>
+        <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+      </ul>
+
+      <!-- Theme Toggle -->
+      <button id="themeToggle" class="text-xl">
+        🌙
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">
+      I build modern  
+      <span class="text-indigo-600">Web Applications</span>
+    </h1>
+    <p class="max-w-2xl text-lg text-gray-600 dark:text-gray-300 mb-6">
+      Full-Stack Developer | MCA Graduate | Java + React Specialist
+    </p>
+
+    <div class="flex gap-4">
+      <a href="#projects" class="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700">View Projects</a>
+      <a href="#contact" class="px-6 py-3 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800">Contact</a>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-24 px-6">
+    <h2 class="text-4xl font-bold text-center mb-16">Projects</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+
+      <!-- Card 1 -->
+      <div class="glass-card p-6 rounded-xl shadow-lg hover:scale-105 duration-300">
+        <h3 class="text-xl font-bold mb-2">Dairy Product Delivery System</h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">Complete platform for dairy order & inventory management.</p>
+        <span class="text-indigo-500 text-sm">React | Python | MySQL</span>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="glass-card p-6 rounded-xl shadow-lg hover:scale-105 duration-300">
+        <h3 class="text-xl font-bold mb-2">E-commerce Management System</h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">Real-time stock, vendor & analytics management.</p>
+        <span class="text-indigo-500 text-sm">Spring Boot | React | MySQL</span>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="glass-card p-6 rounded-xl shadow-lg hover:scale-105 duration-300">
+        <h3 class="text-xl font-bold mb-2">Restaurant Management System</h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">Reservations, orders & staff performance tracking.</p>
+        <span class="text-indigo-500 text-sm">Java | React | MySQL</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-24 px-6 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">About Me</h2>
+      <p class="text-lg text-gray-600 dark:text-gray-300">
+        I'm an MCA graduate and a full-stack developer focusing on building scalable & user-friendly apps using
+        <strong>React + Java Spring Boot</strong>. Passionate about real-world problem-solving.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 px-6">
+    <h2 class="text-4xl font-bold text-center mb-10">Contact</h2>
+
+    <div class="max-w-3xl mx-auto grid md:grid-cols-3 gap-8">
+
+      <!-- Email -->
+      <div class="contact-box">
+        <h3 class="text-lg font-bold">Email</h3>
+        <p>swaroopbagal611@gmail.com</p>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="contact-box">
+        <h3 class="text-lg font-bold">LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/swaroop-bagal-5b680521b/" target="_blank" class="text-indigo-600 underline">Connect</a>
+      </div>
+
+      <!-- Resume -->
+      <div class="contact-box">
+        <h3 class="text-lg font-bold">Resume</h3>
+        <a href="resume.pdf" download class="text-indigo-600 underline">Download</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-600 dark:text-gray-400">
+    © 2025 Swaroop Bagal. All rights reserved.
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>

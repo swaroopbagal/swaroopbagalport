@@ -1,0 +1,23 @@
+/* Glass effect cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+}
+
+.dark .glass-card {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Contact box */
+.contact-box {
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.dark .contact-box {
+  background: #1e1e1e;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
